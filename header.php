@@ -19,6 +19,11 @@
     
 <?php wp_body_open(); ?>
 
-<header>
-    Header
-</header>
+<div id="page" class="site">
+    <header id="header" class="header" role="banner">
+        <?php get_template_part('template_parts/header/nav'); ?>
+    </header>
+    <div id="content" class="site-content">
+
+    </div>
+

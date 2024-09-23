@@ -35,7 +35,7 @@ wp_register_style(
     );
       wp_register_script(
         'bootstrap-js',
-        get_template_directory_uri() . '/assets/lib/js/bootstrap.min.js',  
+        get_template_directory_uri() . '/assets/src/lib/js/bootstrap.js',  
         ['jquery'],  
         false, 
         true  

@@ -12,3 +12,72 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: nevada
 */
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 2px solid #dcdcdc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-family: "Merriweather", serif;
+  font-size: 1.8rem;
+  color: #2c3e50;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: #34495e;
+  padding: 15px 25px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #ecf0f1;
+  color: #2980b9;
+}
+
+.nav-item.active .nav-link {
+  background-color: #2980b9;
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  color: #34495e;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f8f8;
+  color: #2980b9;
+}
+
+.form-inline {
+  margin-left: auto;
+}
+
+.form-control {
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+
+.btn-outline-success {
+  color: #2980b9;
+  border-color: #2980b9;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-success:hover {
+  background-color: #2980b9;
+  color: white;
+}
