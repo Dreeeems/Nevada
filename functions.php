@@ -5,6 +5,15 @@
  * @package Nevada
  */
 
+if(! defined('Nevada_DIR_PATH')){
+    define('Nevada_DIR_PATH',untrailingslashit( get_template_directory(  ) ));
+}
+
+
+
+ require_once Nevada_DIR_PATH . '/include/helpers/autoloder.php';
+
+
 function nevada_enqueue_scripts() {
 
 
