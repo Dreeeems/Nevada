@@ -11,7 +11,7 @@ if(! defined('Nevada_DIR_PATH')){
 
 
 
- require_once Nevada_DIR_PATH . '/include/helpers/autoloder.php';
+ require_once Nevada_DIR_PATH . '/include/helpers/autoloader.php';
 
 
 function nevada_enqueue_scripts() {

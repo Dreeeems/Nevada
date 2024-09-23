@@ -9,12 +9,12 @@ trait Singleton{
     public function __clone(){}
 
     final public static function get_instance(){
-        static $instace = [];
+        static $instance  = [];
         $called_class= get_called_class();
         if(!isset($instace[  $called_class])){
-            $instace[$called_class] = new $called_class();
+            $instance [$called_class] = new $called_class();
             do_action( sprintf('nevada_theme_singleton_init%s', $called_class));
-            return $instance[$called_class];
+            return $instance [$called_class];
         }
     }
 }
