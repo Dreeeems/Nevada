@@ -30,7 +30,6 @@ yarn-error.log
 .sass-cache/
 *.css.map
 
-à
 
 
 dist/
@@ -42,3 +41,4 @@ wp-config.php
 .env.*.local
 
 .gitignore
+
